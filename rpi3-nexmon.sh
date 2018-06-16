@@ -321,7 +321,7 @@ cp -rf rpi-firmware/boot/* ${basedir}/bootp/
 rm -rf rpi-firmware
 git clone --depth 1 https://github.com/nethunteros/re4son-raspberrypi-linux.git -b rpi-4.9.80-re4son ${basedir}/root/usr/src/kernel
 cd ${basedir}/root/usr/src/kernel
-ln -s /usr/include/asm-generic /usr/include/asm
+# ln -s /usr/include/asm-generic /usr/include/asm
 # Set default defconfig
 export ARCH=arm
 export CROSS_COMPILE=arm-linux-gnueabihf-
