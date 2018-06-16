@@ -196,7 +196,7 @@ apt-get clean
 rm -f /0
 rm -f /hs_err*
 rm -f cleanup
-rm -f /usr/bin/qemu*
+#rm -f /usr/bin/qemu*
 EOF
 
 chmod +x kali-$architecture/third-stage
