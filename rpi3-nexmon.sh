@@ -82,7 +82,7 @@ ff02::1         ip6-allnodes
 ff02::2         ip6-allrouters
 EOF
 
-cat << EOF > $DIRECTORY/etc/modprobe.d/ipv6.conf
+cat << EOF > kali-$architecture/etc/modprobe.d/ipv6.conf
 # Don't load ipv6 by default
 alias net-pf-10 off
 #alias ipv6 off
